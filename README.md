@@ -22,10 +22,12 @@
 두 이미지를 하나의 이미지로 정렬한 뒤 crop 하기
 
 SIFT +  FLANMatcher, Homography
+
 ![image](https://github.com/100-heon/Find_Diff_two_imgs/assets/158144807/5daef09d-251e-48c8-bfa9-c6ff78675f10)
 
 
 실제 매치 이미지
+
 ![image](https://github.com/100-heon/Find_Diff_two_imgs/assets/158144807/a7adcb2a-3707-41f9-bbe9-28e74cca2541)
 
 이렇게 출려된 매치들 중 distance가 짧은 상위 몇개의 매치를 리스트에 저장.
@@ -33,11 +35,14 @@ distacne가 작을 수록 좋은 매치.
 
 
 매치를 활용하여 호모그래피를 계산하여 두 이미지간의 변환관계를 구한다.
+
 ![image](https://github.com/100-heon/Find_Diff_two_imgs/assets/158144807/2a596614-f914-4c3d-99d7-abef63797f03)
 
 
 input images
+
 ![image](https://github.com/100-heon/Find_Diff_two_imgs/assets/158144807/087889de-e11f-410e-9aea-3577994003db)
 
 output images
+
 ![image](https://github.com/100-heon/Find_Diff_two_imgs/assets/158144807/7f8b9ae0-fac5-4acc-8e46-b0439db16aa1)
